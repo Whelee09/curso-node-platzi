@@ -24,4 +24,8 @@ recomendada para produccion
 actualizacion: node ahora tiene algo como nodemon pero de forma nativa
 
 
+//promesas vs callbacks
+
+
+
 
