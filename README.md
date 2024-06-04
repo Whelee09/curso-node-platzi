@@ -53,8 +53,53 @@ https://medium.com/@officialrahulmandal/adding-routes-and-logic-to-a-pure-node-j
 
 recurso que explica los status code con gatos https://http.cat/
 
+--------------------------------
+Comando más usados de npm
+
+#Iniciar un proyecto
+npm init
+
+#Iniciar un proyecto con configuración automática
+npm init -y
+
+#Instalar dependencias para producción
+npm install nombreDelPaquete --save
+
+#Alternativa 2 de Instalar dependencias para producción o desarrollo
+npm i nombreDelPaquete -S 
+
+#Instalar dependencias para desarrollo
+npm install nombreDelPaquete --save-dev # npm i nombreDelPaquete -D
+
+#Instalar dependencias de manera global
+npm install -g nombreDelPaquete # npm i -g nombreDelPaquete
+
+#Instalar una versión especifica de una dependencia
+npm install -g nombreDelPaquete@1.0.0 
+
+#Desinstalar dependencias 
+npm uninstall nombreDelPaquete
+
+#Ver dependencias desactualizadas
+npm outdate
+
+#Actualizar las dependencias desactualizadas
+npm update
 
 
 
 
+
+Apuntes de un compa;ero: https://www.notion.so/Fundamentos-de-Node-js-3d1041ef2a7e4835a10838a0c6553ee8#ca7a7f205fd546418c7ba70a3fbaa4ea
+
+
+Como usar nuestros propios imports??
+
+los puedes exports de la manera tradicional y hacer el require, sin embargo se puede hacer 
+de la 'nueva forma', en la cual debemos hacer esto:
+import NombreDelModulo from 'ruta' o hacer el export nombrado,  import {funciona, propiedad, otra cosa} from 'ruta'
+guardar los archivos como .mjs o en el archio json de configuracion agregar "type": "module"
+
+
+Modulos utiles
 
